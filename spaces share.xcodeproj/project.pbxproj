@@ -7,14 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5A243E623061C01700D88D60 /* Untitled.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A243E613061C01500D88D60 /* Untitled.swift */; };
 		A10000000000000000000003 /* SpacesShareKit in Frameworks */ = {isa = PBXBuildFile; productRef = A10000000000000000000002 /* SpacesShareKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		000000000000000000000120 /* spaces share.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "spaces share.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5A243E613061C01500D88D60 /* Untitled.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Untitled.swift; sourceTree = "<group>"; };
-		5A243E633061C01F00D88D60 /* Untitled 2.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = "Untitled 2.py"; sourceTree = "<group>"; };
 		C10000000000000000000001 /* Shared.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Shared.xcconfig; sourceTree = "<group>"; };
 		C10000000000000000000002 /* Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
 		C10000000000000000000003 /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
@@ -43,8 +40,6 @@
 			children = (
 				C10000000000000000000010 /* Config */,
 				000000000000000000000010 /* spaces share */,
-				5A243E613061C01500D88D60 /* Untitled.swift */,
-				5A243E633061C01F00D88D60 /* Untitled 2.py */,
 				000000000000000000000020 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -140,7 +135,6 @@
 		000000000000000120000000 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			files = (
-				5A243E623061C01700D88D60 /* Untitled.swift in Sources */,
 			);
 		};
 /* End PBXSourcesBuildPhase section */
