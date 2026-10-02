@@ -1,5 +1,5 @@
 import XCTest
-@testable import SpacesShareKit
+@testable import SpaceShareKit
 final class ModelsTests: XCTestCase {
     func testServerMillisecondsAndExpiryBoundary() throws {
         let json = #"{"id":"a","title":"Folder","createdAt":1000000,"expiresAt":1600000,"url":"/s/a","files":[]}"#

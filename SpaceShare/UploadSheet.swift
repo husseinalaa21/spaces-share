@@ -1,7 +1,7 @@
 import SwiftUI
 import PhotosUI
 import UniformTypeIdentifiers
-import SpacesShareKit
+import SpaceShareKit
 #if canImport(UIKit)
 import UIKit
 #else

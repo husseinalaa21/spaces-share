@@ -1,7 +1,7 @@
 import Foundation
 import Combine
 import StoreKit
-import SpacesShareKit
+import SpaceShareKit
 
 @MainActor final class ShareMembershipStore: ObservableObject {
     @Published private(set) var product: Product?
@@ -107,7 +107,7 @@ import SpacesShareKit
             if !restored {
                 await store.refreshAccount()
                 guard identity == version, store.session == session else { return }
-                message = store.member ? "Your membership is active." : "No Spaces Share subscription was found for this Apple Account. Memberships bought in Spacechat are loaded when you sign in with the same recovery phrase."
+                message = store.member ? "Your membership is active." : "No SpaceShare subscription was found for this Apple Account. Memberships bought in Spacechat are loaded when you sign in with the same recovery phrase."
             }
         } catch {
             if identity == version { message = error.localizedDescription }

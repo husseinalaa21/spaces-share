@@ -1,5 +1,5 @@
 import SwiftUI
-@main struct SpacesShareApp: App {
+@main struct SpaceShareApp: App {
     @StateObject private var store = ShareStore()
     @StateObject private var purchases = ShareMembershipStore()
     var body: some Scene {

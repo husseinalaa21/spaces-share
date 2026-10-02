@@ -1,5 +1,5 @@
 import SwiftUI
-import SpacesShareKit
+import SpaceShareKit
 import StoreKit
 
 struct MembershipSettingsControls: View {

@@ -1,5 +1,5 @@
 import SwiftUI
-import SpacesShareKit
+import SpaceShareKit
 import UniformTypeIdentifiers
 #if canImport(UIKit)
 import UIKit

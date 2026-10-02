@@ -19,7 +19,7 @@ struct SignInScreen: View {
         GeometryReader { geometry in
             ScrollView {
                 VStack(spacing: 14) {
-                    Text("Spaces Share")
+                    Text("SpaceShare")
                         .font(.system(.largeTitle, design: .rounded, weight: .bold))
                         .multilineTextAlignment(.center)
                     ShareLogo(size: 150).padding(.bottom, 2)

@@ -1,5 +1,5 @@
 import SwiftUI
-import SpacesShareKit
+import SpaceShareKit
 #if canImport(UIKit)
 import UIKit
 #else
@@ -53,7 +53,7 @@ struct ContentView: View {
             VStack(alignment: .leading, spacing: 24) {
                 HStack {
                     VStack(alignment: .leading, spacing: 5) {
-                        Text("Spaces Share").font(ShareTheme.pageTitle)
+                        Text("SpaceShare").font(ShareTheme.pageTitle)
                         Text("A little space. A simple link.").font(.subheadline).foregroundStyle(.secondary)
                     }
                     Spacer()

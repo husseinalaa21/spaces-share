@@ -31,7 +31,7 @@ struct ShareSettings: View {
                     .background(.white, in: RoundedRectangle(cornerRadius: 14))
                 VStack(spacing: 6) {
                     ShareLogo(size: 60)
-                    Text("Spaces Share · \(Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String ?? "1.0")").font(.caption)
+                    Text("SpaceShare · \(Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String ?? "1.0")").font(.caption)
                     Text("Powered by Spacechat").font(.caption2)
                 }.foregroundStyle(.secondary).frame(maxWidth: .infinity).padding(.top, 4)
             }.padding(16).frame(maxWidth: 600).frame(maxWidth: .infinity)

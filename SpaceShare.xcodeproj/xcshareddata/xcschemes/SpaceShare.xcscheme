@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "000000000000000100000000"
-               BuildableName = "spaces share.app"
-               BlueprintName = "spaces share"
-               ReferencedContainer = "container:spaces share.xcodeproj">
+               BuildableName = "SpaceShare.app"
+               BlueprintName = "SpaceShare"
+               ReferencedContainer = "container:SpaceShare.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -43,9 +43,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "000000000000000100000000"
-            BuildableName = "spaces share.app"
-            BlueprintName = "spaces share"
-            ReferencedContainer = "container:spaces share.xcodeproj">
+            BuildableName = "SpaceShare.app"
+            BlueprintName = "SpaceShare"
+            ReferencedContainer = "container:SpaceShare.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -60,9 +60,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "000000000000000100000000"
-            BuildableName = "spaces share.app"
-            BlueprintName = "spaces share"
-            ReferencedContainer = "container:spaces share.xcodeproj">
+            BuildableName = "SpaceShare.app"
+            BlueprintName = "SpaceShare"
+            ReferencedContainer = "container:SpaceShare.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

@@ -154,8 +154,8 @@ enum SpacechatAuth {
     /// The phrase is the account — anyone holding it owns it outright — so it
     /// goes in the Keychain, not `UserDefaults`, and is marked
     /// `ThisDeviceOnly` so it never rides along in an iCloud or iTunes backup.
-    private static let phraseAccount = "com.spacechat.spacesshare.recoveryPhrase"
-    private static let sessionAccount = "com.spacechat.spacesshare.session"
+    private static let phraseAccount = "com.spacechat.spaceshare.recoveryPhrase"
+    private static let sessionAccount = "com.spacechat.spaceshare.session"
 
     static func storePhrase(_ phrase: String) { keychainSet(phraseAccount, normalize(phrase)) }
     static func storedPhrase() -> String? { keychainGet(phraseAccount) }
@@ -170,7 +170,7 @@ enum SpacechatAuth {
     private static func keychainQuery(_ account: String) -> [String: Any] {
         [
             kSecClass as String: kSecClassGenericPassword,
-            kSecAttrService as String: "com.spacechat.spacesshare",
+            kSecAttrService as String: "com.spacechat.spaceshare",
             kSecAttrAccount as String: account
         ]
     }

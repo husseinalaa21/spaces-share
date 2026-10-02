@@ -1,5 +1,5 @@
 import SwiftUI
-import SpacesShareKit
+import SpaceShareKit
 
 struct MembershipPage: View {
     @EnvironmentObject private var store: ShareStore
@@ -20,7 +20,7 @@ struct MembershipPage: View {
                         Label("MEMBERSHIP ACTIVE", systemImage: "checkmark.seal.fill")
                             .font(.caption.weight(.semibold)).foregroundStyle(ShareTheme.blue)
                         Text("You're already a member.").font(ShareTheme.pageTitle)
-                        Text("Your active Spacechat membership is ready to use in Spaces Share.")
+                        Text("Your active Spacechat membership is ready to use in SpaceShare.")
                             .font(.subheadline).foregroundStyle(.secondary)
                         membershipBenefits
                         if let expiry = store.membership?.prepaidInfo?.expiryDate {

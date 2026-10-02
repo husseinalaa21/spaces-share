@@ -1,7 +1,7 @@
 import Foundation
 import Combine
 import SwiftUI
-import SpacesShareKit
+import SpaceShareKit
 import UniformTypeIdentifiers
 
 struct SelectedFile: Identifiable, Sendable {
@@ -169,7 +169,7 @@ enum ShareError: LocalizedError {
         }
         guard (200...299).contains(response.statusCode) else {
             let json = (try? JSONSerialization.jsonObject(with: data)) as? [String: Any]
-            if response.statusCode == 404 { throw ShareError.message("Spaces Share is not available on the server yet. Please try again after the server update.") }
+            if response.statusCode == 404 { throw ShareError.message("SpaceShare is not available on the server yet. Please try again after the server update.") }
             throw ShareError.message(json?["error"] as? String ?? "Couldn't complete your request. Please try again.")
         }
         do { return try JSONDecoder().decode(T.self, from: data) }
