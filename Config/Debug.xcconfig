@@ -1,0 +1,7 @@
+// Debug.xcconfig — Debug configuration.
+#include "Shared.xcconfig"
+
+SPACES_ENVIRONMENT = development
+
+// Personal overrides (for example a local API server). Not committed; see .gitignore.
+#include? "Local.xcconfig"

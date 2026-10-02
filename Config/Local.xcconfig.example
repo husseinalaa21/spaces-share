@@ -1,0 +1,2 @@
+// Copy to Config/Local.xcconfig (ignored by git) to override Debug settings on this Mac.
+// SPACES_API_BASE_URL = http:/$(SLASH)localhost:5000

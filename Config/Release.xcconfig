@@ -1,0 +1,4 @@
+// Release.xcconfig — Release configuration (App Store / TestFlight builds).
+#include "Shared.xcconfig"
+
+SPACES_ENVIRONMENT = production
